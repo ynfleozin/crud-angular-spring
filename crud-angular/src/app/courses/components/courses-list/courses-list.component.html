@@ -27,10 +27,10 @@
 
     <mat-cell *matCellDef="let course " class="action-column">
       <button mat-icon-button aria-label="Edit Course" (click)="onEdit(course)">
-        <mat-icon>edit</mat-icon>
+        <mat-icon (click)="onEdit(course)">edit</mat-icon>
       </button>
 
-      <button mat-icon-button color="warn" aria-label="Remove Course">
+      <button mat-icon-button color="warn" aria-label="Remove Course" (click)="onDelete(course)" >
         <mat-icon>delete</mat-icon>
       </button>
     </mat-cell>
