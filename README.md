@@ -33,16 +33,6 @@ CRUD Angular + Spring demonstrating Has-Many relationship, with tests.
 - ✅ Test coverage for tests
 - ✅ Spring Docs - Swagger (https://springdoc.org/v2/)
 
-### Not implemented (maybe in a future version)
-
-- Security (Authorization and Authentication)
-- Caching
-- Data Compression
-- Throttling e Rate-limiting
-- Profiling the app
-- Test Containers
-- Docker Build
-
 ## Some functionalities available in the front end
 
 - ✅ Angular Standalone components (Angular v16+)
